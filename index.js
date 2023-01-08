@@ -36,7 +36,7 @@ app.get('/add',function(req,res){
 //listen port 
 app.listen(port,function(err){
     if(err){
-        console.log(err);
+        console.log("error in listen ports :: ",err);
         return;
     }
     console.log(`server is up on port ${port}`);
